@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel reservation form</title>
+</head>
+
+<body>
+    <h1>Travel reservation form</h1>
+    <h2>* denotes mandotry</h2>
+
+    <form action="#">
+        <div>
+            <label for="full_name">Full name*:</label> <br>
+            <input type="text" id="full_name" name="full_name" placeholder="FirstName LastName" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email address*:</label> <br>
+            <input type="email" id="email" name="email" placeholder="EMAIL_ADDRESS" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="country">Select Tour Package*:</label> <br>
+            <select name="country" id="country">
+                <option value="lasvegas">Lasvegas</option>
+                <option value="maldiv">Maldir orollari</option>
+                <option value="goa" selected>Goa</option>
+                <option value="dubai">Dubai</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="date">Arrival date*:</label> <br>
+            <input type="datetime" id="date" name="date" placeholder="m/d/y" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="number_person">Number of Persons*:</label> <br>
+            <input type="number" id="number_person" name="number_person" placeholder="UNKNOWN_TYPE" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="avail">What would you want avail?* </label><br>
+            Boarding <input type="checkbox" name="avail" id="avail" value="boarding"> <br>
+            Fooding <input type="checkbox" name="avail" id="avail" value="fooding"> <br>
+            Sight seeing <input type="checkbox" name="avail" id="avail" value="boarding"> <br>
+            Discount Coupon code <input type="checkbox" name="avail" id="avail" value="boarding">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="condition">Terms and conditions* </label> <br>
+            <input type="radio" name="condition" id="condition" checked> I agree
+            <input type="radio" name="condition" id="condition"> I disagree
+        </div>
+
+        <br>
+
+        <button type="submit">Complate reservation</button>
+    </form>
+</body>
+
+</html>
