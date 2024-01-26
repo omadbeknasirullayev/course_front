@@ -1,0 +1,13 @@
+.border_orange {
+    border: 2px solid orange;
+}
+.border_green {
+    border: 2px dashed green;
+}
+.border_black {
+    border: 2px dotted black;
+}
+
+p {
+    padding: 10px;
+}

@@ -1,0 +1,12 @@
+.line_normal {
+    line-height: normal;
+}
+
+.line_200 {
+    line-height: 200%;
+}
+
+p {
+    width: 400px;
+    border: 1px solid black;
+}
