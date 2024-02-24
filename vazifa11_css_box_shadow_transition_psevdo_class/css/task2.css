@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    margin: 200px;
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+    border: 2px solid #909090;
+    cursor: pointer;
+    transition: 0.2s all 0s;
+}
+
+.btn:hover {
+    background-color: #5e5c5c;
+}
+
+.btn:active {
+    background-color: #4a4a4a;
+    color: white;
+}
+
+.btn:focus {
+    outline: 4px solid rgb(127, 127, 213);
+}
