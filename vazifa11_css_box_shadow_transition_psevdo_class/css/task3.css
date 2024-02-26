@@ -16,11 +16,13 @@
     width: 400px;
     height: max-content;
     cursor: pointer;
-    transition: 0.2s all 0s;
+    transition: 0.3s all 0s;
+    box-shadow: 0px 0px 20px #545454;
 }
 
 .card:hover {
-    box-shadow: 0px 0px 70px #545454;
+    box-shadow: 0px 0px 50px #545454;
+    transform: scale(1.2);
 }
 
 .card-content {

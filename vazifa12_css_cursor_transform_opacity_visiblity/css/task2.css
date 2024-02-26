@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.card1  {
+    margin-top: 8rem;
+    width: 200px;
+    height: 500px;
+    border: 2px solid red;
+    box-shadow: 5px 5px 30px #909090;
+    background-color: rgb(109, 80, 80);
+    transform:rotate(0deg) rotateX(24deg) rotateY(100deg)
+}
+
+.card1:hover {
+    transform: scaleX(35deg);
+    transform: skew(0deg, 0deg);
+}
