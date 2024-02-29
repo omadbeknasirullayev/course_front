@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(43,60,80);
+}
+
+.circle1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.circle2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: green;
+    /* transform: translateY(-250%); */
+    animation-name: circle-2; 
+    animation-duration: 4s;
+    
+    animation-iteration-count: infinite;
+}
+
+@keyframes circle-2 {
+    0% {
+        transform: translateY(-250%);
+    }
+    25% {
+        transform: translateX(250%);
+    }
+    50% {
+        transform: translateY(250%);
+    }
+    75% {
+        transform: translateX(-250%);
+    }
+    100% {
+        transform: translateY(-250%);
+    }
+}
